@@ -19,7 +19,7 @@ loginBtn.addEventListener("click", function (e) {
         console.log("Invalid Input");
     }
     else{
-        console.log("Form Submitted");
+        alert("Successfully Login");
         console.log("Login");
         console.log("Password Verified " + password1.value + " " + password2.value);
         console.log("Username:" + username.value);
